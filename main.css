@@ -1,0 +1,80 @@
+
+#footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:auto;		/* Wysokość stopki */
+    background:#CF5037;
+}
+
+.container-hero {
+    background-image: url("img/bg.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+ .header h1{
+     color:white;
+ }
+
+.project1 {
+     height: auto;
+     background-color: green;
+
+ }
+
+.project2 {
+    height: 40rem;
+    background-color: orangered;
+
+}
+
+.project-row {
+    display:flex;
+    background-color: lightblue;
+    justify-content: space-around;
+}
+
+.percentage-row {
+    display:flex;
+    background-color: lightblue;
+    justify-content: space-around;
+}
+
+.percentage-col{
+    display:flex;
+    justify-content: center;
+}
+
+.css{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border:red solid 3px;
+    height: 10rem;
+    width: 10rem;
+    margin:2rem;
+    border-radius: 50%;
+}
+
+.space{
+    height:2rem;
+}
+
+.photo {
+    width:25rem;
+    height: 25rem;
+    border:2px red solid;
+    border-radius:50%;
+    background-image: url("img/project2.jpeg");
+    background-size: cover;
+}
+
+.header-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.c1 img {
+    width:25vw;
+    height: 20rem;
+}
